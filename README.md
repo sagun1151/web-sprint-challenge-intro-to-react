@@ -16,9 +16,9 @@ You are not allowed to collaborate during the sprint challenge.
 - [ *] Open the assignment in Canvas and click on the "Set up git" option (Or, depending, if you see something along the lines of 'Load Sprint Challenge Submission in a new window' click that).
 - [ *] Wire your fork to Codegrade using the "Click here for instructions on setting up Git submissions" link, select Github, authorize Github.
 - [ *] Push your first commit: `git commit --allow-empty -m "first commit" && git push`. MAKE SURE TO PUSH TO MAIN, YOU NO LONGER NEED TO CREATE A NEW BRANCH!!
-- [ ] Make commits often! PUSH TO MAIN!!!
-- [ ] You can run tests locally by running npm run test.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [* ] Make commits often! PUSH TO MAIN!!!
+- [* ] You can run tests locally by running npm run test.
+- [ *] Check to see that Codegrade has accepted your git submission.
 
 ## Project Instructions
 
@@ -38,7 +38,7 @@ Your finished project must include all of the following requirements:
 
 - [ *] Use the endpoint `[GET] https://swapi.dev/api/people` (mocked in [msw](https://github.com/mswjs/msw)) to obtain characters.
 - [* ] Set the list of characters into state.
-- [ ] Render your characters to the DOM:
+- [* ] Render your characters to the DOM:
 
   1. Build a React component named 'Character' to render an individual character.
   1. Map over the list in state, and for each character render a Character to the page.
@@ -79,6 +79,20 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+User interface component library to render UI. Better handling of dynamic data for faster response time. I found out that Netflix uses React.js to handle user interactions and saw huge improvement of initial load times and performance. Personality i think the reasuability is great with React.js. Being able to write somewhere alone the lines of 20ish lines of code but have it render and insane amount of data is great;     
+
 1. Describe component state.
+
+object that holds data that may change over the course of the component
+
 1. Describe props.
+
+something that passes information held on state inside one component to another
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+anything that affects things outside the scope of the current function being executed 
+by using useState
+
+
